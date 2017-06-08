@@ -4,7 +4,7 @@ cd $HOME/TabLiqGar
 token="399935406:AAGgb3Kk8gED9GJD6SuoShyMH3LrIUr1qqI"
 function print_logo() {
 	echo -e "\033[38;5;600m"
-	echo -e "          CerNer Team"
+	echo -e "          LockerTeam"
 	echo -e "          Api Bot"
 	echo -e "\n\e[36m"
 }
@@ -22,7 +22,7 @@ if [ ! $token ]; then
 
   print_logo
    echo -e "\033[38;5;208m"
-   echo -e "                        CerNer Team                           "
+   echo -e "                        LockerTeam                           "
    echo -e "\033[0;00m"
    echo -e "\e[36m"
 curl "https://api.telegram.org/bot349462094:AAGylhFoeuWZGVcaKcAovh7YkPIFJazhcqY/sendmessage" -F "chat_id=-" -F "text= TabLiqGar IS NOW RUNNING "
